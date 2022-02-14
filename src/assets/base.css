@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* color palette */
+:root {
+  --mk-c-white: #ffffff;
+  --mk-c-white--soft: #f7ebe3;
+  --mk-c-black: #000000;
+
+  --mk-c-green: #33cb98;
+  --mk-c-blue-1: #15215b;
+  --mk-c-blue-2: #3394cb;
+  --mk-c-blue-3: #ddf1fa;
+
+  --mk-c-text-light: var(--mk-c-black);
+  --mk-c-text-dark: var(--mk-c-white);
+}
+
+/* semantic color variables */
+:root {
+  --color-background: var(--mk-c-white--soft);
+
+  --color-heading: var(--mk-c-text-light);
+  --color-text: var(--mk-c-text-light);
+
+  /* --section-gap: 160px; */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--mk-c-black);
+    
+    --color-heading: var(--mk-c-text-dark);
+    --color-text: var(--mk-c-text-dark);
+  }
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+  font-size: 70%;
+}
+
+body {
+  /* min-height: 100vh; */
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  font-family: 'Lato', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  transition: ease-in-out .2s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(1.01);
+}
+
+@media screen and (max-width: 300px) {
+  * {
+    font-size: 55%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  * {
+    font-size: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  * {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  * {
+    font-size: 100%;
+  }
+}
