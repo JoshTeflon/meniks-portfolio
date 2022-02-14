@@ -1,14 +1,14 @@
 <script>
 import HeroImage from "./HeroImage.vue";
 import HeroItems from "./HeroItems.vue";
-import Nav from "./Nav.vue"
+// import Nav from "./Nav.vue"
 
 export default {
   name: "TheLanding",
   components: {
     HeroImage,
     HeroItems,
-    Nav,
+    // Nav,
   }
 }
 
@@ -16,7 +16,7 @@ export default {
 
 <template>
   <div class="landing">
-    <Nav />
+    <!-- <Nav /> -->
     <div class="landing-content--wrapper">
       <div class="landing-content">
         <div class="hero--items">
@@ -34,14 +34,14 @@ export default {
   .landing {
     margin: 0 auto;
     width: 80%;
-    height: 100vh;
+    height: 85vh;
   }
 
   .landing .landing-content--wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .landing .landing-content--wrapper .landing-content {

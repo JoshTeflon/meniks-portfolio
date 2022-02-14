@@ -29,11 +29,12 @@
 
 <style scoped>
     .nav {
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
         padding: 2rem 0;
-        position: absolute;
-        top: 0;
+        height: 15vh;
+        /* position: absolute;
+        top: 0; */
     }
 
     .nav .nav--content {

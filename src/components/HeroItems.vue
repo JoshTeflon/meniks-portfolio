@@ -32,12 +32,15 @@
 </template>
 
 <style scoped>
+    /* .hero--items {
+        display
+    } */
     .hero--items .hero--intro {
         font-size: 2rem;
         font-weight: 400;
     }
     .hero--items .hero--career {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         font-weight: 500;
         letter-spacing: 0.05rem;
         margin: 0.75rem 0;
@@ -45,6 +48,7 @@
     .hero--items .hero--summary {
         font-size: 1rem;
         font-weight: 400;
+        width: 100%;
     }
     .hero--items .mk--name {
         color: var(--mk-c-blue-1);
