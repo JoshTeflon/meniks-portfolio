@@ -1,8 +1,8 @@
 <script>
-import LogoEmiSvg from "./icons/LogoEmiSvg.vue";
+// import LogoEmiSvg from "./icons/LogoEmiSvg.vue";
 	export default {
     name: "Footer",
-    components: { LogoEmiSvg }
+    // components: { LogoEmiSvg }
 }
 </script>
 
@@ -11,7 +11,7 @@ import LogoEmiSvg from "./icons/LogoEmiSvg.vue";
     <div class="footer-wrapper">
         <div class="footer-section--1">
             <div class="footer-logo">
-                <LogoEmiSvg />
+                <img src="../assets/EMI logo.svg" />
             </div>
             <div>
                 <a href=""></a>
@@ -31,7 +31,11 @@ import LogoEmiSvg from "./icons/LogoEmiSvg.vue";
 </template>
 
 <style scoped>
-  .footer .footer-wrapper .footer-section--1 .footer-logo {
-      width: 3rem; 
-  }
+    .footer .footer-wrapper .footer-section--1 .footer-logo {
+        width: 7rem; 
+    }
+
+    .footer .footer-wrapper .footer-section--1 .footer-logo img {
+        width: 100%;
+    }
 </style>

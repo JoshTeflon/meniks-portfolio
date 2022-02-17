@@ -1,9 +1,9 @@
 <script>
-    import IconEmiSvg from "./icons/IconEmiSvg.vue";
+    // import IconEmiSvg from "./icons/IconEmiSvg.vue";
 
     export default {
         name: "Nav",
-        components: { IconEmiSvg }
+        // components: { IconEmiSvg }
     }
 </script>
 
