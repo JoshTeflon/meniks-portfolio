@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* color palette */
 :root {
@@ -13,6 +13,11 @@
 
   --mk-c-text-light: var(--mk-c-black);
   --mk-c-text-dark: var(--mk-c-white);
+
+  --mk-width-90: 90%;
+  --mk-width-85: 85%;
+  --mk-width-80: 80%;
+  --mk-width-75: 75%;
 }
 
 /* semantic color variables */
@@ -22,7 +27,10 @@
   --color-heading: var(--mk-c-text-light);
   --color-text: var(--mk-c-text-light);
 
-  /* --section-gap: 160px; */
+  --width-mobile: var(--mk-width-90);
+  --width-tablet: var(--mk-width-85);
+  --width-tablet-lg: var(--mk-width-80);
+  --width-desktop: var(--mk-width-75);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -49,7 +57,7 @@ body {
   color: var(--color-text);
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -24,7 +24,7 @@
             <a class="cta-btn--1" href="mailto: consultantsemi@gmail.com?subject=RESEARCHER & IT CONSULTANT&body=Hello Moses Enikele," target="_blank" rel="noopener noreferrer">
                 <Button action="Email me" :background="emailBg"  />
             </a>
-            <a class="cta-btn--2" href="../assets/ENIKELE Moses ISEGHOSIME Resume.docx" target="_blank" rel="noopener noreferrer">
+            <a class="cta-btn--2" href="../assets/ENIKELE Moses ISEGHOSIME Resume.pdf" download>
                 <Button action="Download CV" :background="cvBg"  />
             </a>
         </div>
@@ -32,23 +32,30 @@
 </template>
 
 <style scoped>
-    /* .hero--items {
-        display
-    } */
+    .hero--items {
+        width: 100%;
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .hero--items .hero--intro {
         font-size: 2rem;
         font-weight: 400;
     }
     .hero--items .hero--career {
-        font-size: 1.8rem;
-        font-weight: 500;
+        font-size: 1.75rem;
+        font-weight: 700;
         letter-spacing: 0.05rem;
         margin: 0.75rem 0;
     }
     .hero--items .hero--summary {
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-weight: 400;
-        width: 100%;
+        /* width: 100%; */
+        line-height: 150%;
+        text-align: center;
     }
     .hero--items .mk--name {
         color: var(--mk-c-blue-1);
@@ -66,6 +73,10 @@
     }
 
     @media screen and (min-width: 640px) {
+        .hero--items {
+            display: block;
+        }
+
         .hero--items .hero--intro {
             font-size: 2rem;
         }
@@ -74,20 +85,24 @@
             font-size: 2rem;
         }
 
+        .hero--items .hero--summary {
+            text-align: left;
+        }
+
         .hero--items .hero--career {
-            font-size: 2.25rem;
+            font-size: 2.4rem;
         }
     }
 
     @media screen and (min-width: 1024px) {
         .hero--items .hero--summary {
-            width: 90%;
+            width: 100%;
         }
     }
 
     @media screen and (min-width: 1200px) {
         .hero--items .hero--summary {
-            width: 80%;
+            width: 100%;
         }
     }
 </style>

@@ -10,6 +10,12 @@
 
 <style scoped>
   .hero--image {
-    width: 23rem;
+    width: 23.25rem;
+  }
+
+  @media screen and (min-width: 640px) {
+    .hero--image {
+      width: 24.25rem;
+    }
   }
 </style>
