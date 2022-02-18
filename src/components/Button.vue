@@ -17,7 +17,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 13.5rem;
+        width: 12.5rem;
         padding: 1.5rem 0;
         border: none;
         border-radius: 5px;
@@ -25,6 +25,12 @@
         font-size: 1.2rem;
         font-family: 'Nunito', sans-serif;
     }
+
+     @media screen and (min-width: 375px) {
+         .cta-btn {
+            width: 13.5rem;
+        }
+     }
 
     @media screen and (min-width: 640px) {
         .cta-btn {

@@ -11,7 +11,7 @@
     <div class="nav">
         <div class="nav--content">
             <div class="mk--logo">
-                <img src="../assets/EMI logo.svg" />
+                <img src="../assets/EMI-logo.svg" alt="emi logo" />
             </div>
             <ul class="nav-items">
                 <li>Home</li>
