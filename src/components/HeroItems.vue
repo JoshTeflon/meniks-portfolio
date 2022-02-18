@@ -24,7 +24,7 @@
             <a class="cta-btn--1" href="mailto: consultantsemi@gmail.com?subject=RESEARCHER & IT CONSULTANT&body=Hello Moses Enikele," target="_blank" rel="noopener noreferrer">
                 <Button action="Email me" :background="emailBg"  />
             </a>
-            <a class="cta-btn--2" href="../assets/ENIKELE Moses ISEGHOSIME Resume.pdf" download>
+            <a class="cta-btn--2" href="../assets/EnikeleMosesIseghosimeResume.pdf" download="EnikeleMosesIseghosimeResume.pdf">
                 <Button action="Download CV" :background="cvBg"  />
             </a>
         </div>
