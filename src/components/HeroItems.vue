@@ -102,7 +102,7 @@
 
     @media screen and (min-width: 1200px) {
         .hero--items .hero--summary {
-            width: 100%;
+            width: 95%;
         }
     }
 </style>
