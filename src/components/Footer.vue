@@ -11,7 +11,7 @@
     <div class="footer-wrapper">
         <div class="footer-section--1">
             <div class="footer-logo">
-                <img src="../assets/EMI logo.svg" />
+                <img src="../assets/EMI-logo.svg" />
             </div>
             <div>
                 <a href=""></a>
